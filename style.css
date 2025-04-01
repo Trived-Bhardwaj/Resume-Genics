@@ -110,7 +110,7 @@ ul li a:hover{
     outline: none;
 }
 
-.content{
+.content1{
     width: 1200px;
     height: auto;
     margin: auto;
@@ -118,7 +118,7 @@ ul li a:hover{
     position: relative;
 }
 
-.content .par{
+.content1 .par1{
     padding-left: 20px;
     padding-bottom: 25px;
     font-family: Arial;
@@ -126,7 +126,7 @@ ul li a:hover{
     line-height: 30px;
 }
 
-.content h1{
+.content1 h1{
     font-family: 'Times New Roman';
     font-size: 50px;
     padding-left: 20px;
@@ -134,7 +134,7 @@ ul li a:hover{
     letter-spacing: 2px;
 }
 
-.content .cn{
+.content1 .cn{
     width: 150px;
     height: 50px;
     background: #ff7200;
@@ -147,7 +147,7 @@ ul li a:hover{
     transition: .4s ease;
     
 }
-.content .cn1{
+.content1 .cn1{
     width: 200px;
     height: 50px;
     background: #e9dcd2;
@@ -161,12 +161,12 @@ ul li a:hover{
     
 }
 
-.content .cn a{
+.content1 .cn a{
     text-decoration: none;
     color: rgb(238, 232, 232);
     transition: .3s ease;
 }
-.content .cn1 a{
+.content1 .cn1 a{
     text-decoration: none;
     color: black;
     transition: .3s ease;
@@ -177,7 +177,7 @@ ul li a:hover{
 .cn1:hover{
     background-color: gray;
 }
-.content span{
+.content1 span{
     color: #ff7200;
     font-size: 65px
 }
@@ -359,3 +359,97 @@ ul li a:hover{
         flex-direction: column;
     }
 }
+/* The Most Powerful Resume Reviewer, Powered by AI (1-6) */
+        /* Global Styles */
+        .body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container1 {
+            max-width: 1200px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .container1 .par2 {
+            font-size: 1.2rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        /* Grid Layout */
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .features-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .features-grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        /* Feature Box */
+        .feature-box {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Icon Styling */
+        .icon1 {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: #4f46e5;
+            color: white;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .icon1 svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .feature-box h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .feature-box p {
+            font-size: 1rem;
+            color: #666;
+        }
