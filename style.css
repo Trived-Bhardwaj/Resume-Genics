@@ -15,7 +15,7 @@
     width:100%;
     max-width: 1450px;
     border-radius: 10px;
-    marin-right: -8px;
+    marin-right: auto;
 }
 .main{
     width: 100%;
